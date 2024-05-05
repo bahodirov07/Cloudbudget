@@ -1,0 +1,68 @@
+
+
+.footer{
+    background: #fafafa;
+}
+.footer .container{
+    padding-top: 85px;
+    padding-bottom: 86px;
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+}
+.footer_txt{
+    font-weight: 400;
+    font-size: 12px;
+    color: #101010;
+}
+.footer_cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.footer_card_title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #101010;
+    padding-bottom: 33px;
+}
+.footer_card_item{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;   
+}
+.footer_card_titles{
+    font-weight: 700;
+    font-size: 18px;
+    color: #101010;
+    padding-bottom: 28px;
+}
+.footer_card_items{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000;
+}
+.footer_card_list{
+    padding-top: 20px;
+    display: flex;
+    gap: 12px;
+}
+.footer_card_tell{
+    font-weight: 400;
+    font-size: 12px;
+    color: #121212;
+}
+.footer_card_email{
+    font-weight: 400;
+    font-size: 12px;
+    color: #101010;
+}
+.footer_card_card{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}

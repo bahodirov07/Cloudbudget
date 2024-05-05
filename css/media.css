@@ -1,0 +1,134 @@
+
+
+@media (max-width:700px){
+    .nav__menu {
+        display: flex;
+        width: 80px;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        margin:50px 0 50px 0;
+    }
+    .nav__menu-line {
+        width: 30px;
+        height: 3px;
+        background: #fff;
+        position: relative;
+        
+        &::before, &::after {
+            content: "";
+            width: inherit;
+            height: inherit;
+            background: inherit;
+            position: absolute;
+        }
+        
+        &::before {
+            bottom: 10px;
+            width: 35px;
+        }
+        
+        &::after {
+            top: 10px;
+            width: 25px;
+        }
+    }
+    .nav_list{
+        display: none;
+    }
+    .nav_card{
+        justify-content:space-between;
+        flex-direction: column;
+    }
+    .nav .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-title{
+        font-size: 36px;
+    }
+    .header >.container{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        gap: 30px;
+    }
+}
+@media (max-width:1000px){
+    .learn-more_card-title{
+        font-size: 32px;
+        padding-bottom:unset;
+    }
+    .learn-more_card1{
+        margin-top: 40px;
+        margin-bottom:0px;
+    }
+    .learn-more_cards{
+        gap: 50px;
+        justify-content: center;
+    }
+    .learn-more_card2{
+        padding-bottom:20px;
+        padding-top:0px;
+    }
+}
+@media (max-width:1040px){
+    .features_title{
+        font-size: 32px;
+        padding: 63px 63px;
+    }
+    .features_cards{
+        gap: 200px;
+        justify-content: space-between;
+        padding-bottom: 200px;
+    }
+    .Technology_tite{
+        font-size: 32px;
+    }
+    .Technology_cards{
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 104px;
+    }
+}
+@media (max-width:1000px){
+    .contact_title{
+        font-size: 32px;
+    }
+    .contact_card{
+    gap: 20px;
+    }
+    .contact .container{
+        gap: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+@media (max-width:600px){
+    .form-card-name{
+        flex-direction: column;
+    }
+    .form-number{
+        width: 255px;
+    }
+    .form-select{
+        width: 255px;
+    }
+}
+@media (max-width:1025px){
+    .info_card{
+        padding: 80px 0 111px 0;
+    }
+    .info .container{
+       padding-bottom: 200px;
+       gap: 81px;
+    }
+}
+@media (max-width:400px){
+    .learn-more_card_link{
+        left:unset;
+    }
+    .learn-more_card2{
+        justify-content: center;
+    }
+}

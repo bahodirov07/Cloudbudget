@@ -1,0 +1,316 @@
+@import url(fonts.css);
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(media.css);
+
+.learn-more_card-title{
+    font-weight: 600;
+    font-size: 36px;
+    color: #000;
+    padding-bottom: 25px;
+}
+.learn-more_card-txt{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* text-align: justify; */
+    color: #000;
+}
+.learn-more_card-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+    color: #ed4c5c;
+}
+.learn-more_card1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 445px;
+    margin-top: 140px;
+    margin-bottom: 110px;
+}
+.learn-more_card1-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.learn-more-imgegs{
+    width: 18px;
+    height: 18px;
+}
+.learn-more_card_link{
+    border-radius: 50%;
+    background: #ed4c5c;
+    position: absolute;
+    left: -33px;
+    z-index: 1;
+    width: 66px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn-more_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 92px;
+}
+.learn-more_card2{
+    display: flex;
+    align-items: center;
+    padding-top: 94px;
+    padding-bottom: 95px;
+    position: relative;
+}
+
+.features{
+    background: #fafafa;
+}
+.features_title{
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    color: #000;
+    padding: 63px 63px;
+}
+.features_card_card-title{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #101010;
+}
+.features_card_card-txt{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #101010;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.features_card_card-text{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #ed4c5c;
+}
+.features_img{
+    position: absolute;
+}
+.features_card_card:hover{
+    transform: translateY(-80px); /* X, Y */
+    transition: 0,1s;
+    cursor: pointer;
+}
+.features_card_card{
+    position: relative;
+    z-index: 1;
+    transition: 0.4s;
+}
+.features_card_card{
+    border-radius: 8px;
+    max-width: 293px;
+    width: 100%;
+    /* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1); */
+    background: #fff;
+    padding: 33px 20px 25px 20px;
+    position: relative;
+    top: 157px;
+}
+.features_cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+    padding-bottom: 230px;
+}
+.features_card{
+    max-width: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Technology_tite{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #000;
+    padding-top: 63px;
+    padding-bottom: 52px;
+}
+.Technology_number{
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 100px;
+    color: rgba(16, 16, 16, 0.08);
+    position: absolute;
+}
+.cloud_logo{
+    position: relative;
+    bottom: -60px;
+}
+.cloud_logos{
+    padding: 10px;
+    position: relative;
+    bottom: -60px;
+}
+.Technology_card-title{
+    font-weight: 700;
+    font-size: 18px;
+    color: #101010;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.Technology_card-txt{
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+    width: 191px;
+}
+.Technology_card{
+    margin: 0 auto;
+    text-align: center;
+    width: 255px;
+    height: 226px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Technology_cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 104px;
+}
+.info{
+    background: #ed4c5c;
+}
+.info .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+.info_title{
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+}
+.info_txt{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+    padding-top: 54px;
+    padding-bottom: 40px;
+}
+.info_list{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.info_card{
+    width: 445px;
+    padding: 122px 0 111px 0;
+}
+.info_cards{
+    position: relative;
+    max-width: 533px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-img2{
+    position: absolute;
+    z-index: 1;
+}
+.info-img1{
+    position: absolute;
+    /* background: #c4c4c4, url("path_to_image"); */
+    opacity: 0.5;
+    left:10px;
+   
+}
+.info-img3{
+    position:absolute;
+    /* background: #c4c4c4, url("path_to_image"); */
+    opacity: 0.5;
+    right: 10px;
+}
+.contact_card{
+    width: 445px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.contact_title{
+    font-weight: 600;
+    font-size: 36px;
+    color: #000;
+}
+.contact_txt{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #000;
+}
+.form-name{
+    padding: 21px 31px 20px 31px;
+    border-radius: 5px;
+    border: 1px #000 solid;
+    font-size: 16px;
+    font-weight: 400;
+    width: 255px;
+}
+.form-number{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 21px 31px 20px 31px;
+    border-radius: 5px;
+    border: 1px #000 solid;
+    width: 540px;
+}
+.form-select{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 21px 31px 20px 31px;
+    border-radius: 5px;
+    border: 1px #000 solid;
+    width: 540px;
+}
+.contact_button{
+    padding: 17px 33px 16px 33px;
+    border: 1.50px solid #ed4c5c;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ed4c5c;
+    width: 160px;
+}
+.form_contact{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.form-card-name{
+    display: flex;
+    gap: 30px;
+}
+.contact .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 114px;
+    padding-top: 117px;
+    padding-bottom:123px;
+}

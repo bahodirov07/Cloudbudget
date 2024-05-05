@@ -1,0 +1,15 @@
+@font-face {
+    src: url(../fonts/Loto/Lato-Bold.ttf);
+    font-family: "Loto";
+    font-weight: 700;
+}
+@font-face {
+    src: url(../fonts/Loto/Lato-Regular.ttf);
+    font-family: "Loto";
+    font-weight: 400;
+}
+@font-face {
+    src: url(../fonts/Loto/Lato-Semibold.ttf);
+    font-family: "Loto";
+    font-weight: 600;
+}
